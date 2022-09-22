@@ -1,0 +1,253 @@
+{
+  "contacts": 
+    [
+      {
+        "id": "1",
+        "name": "Ora Janaszewski",
+        "company": "Eazzy",
+        "title": "Sales Associate",
+        "mobile": "369 407 0703",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "RF Shielding"
+      }, {
+        "id": "2",
+        "name": "Maggie Balas",
+        "company": "Linkbridge",
+        "title": "Technical Writer",
+        "mobile": "497 893 6578",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Structural & Misc Steel Erection"
+      }, {
+        "id": "3",
+        "name": "Hallsy McNickle",
+        "company": "Meembee",
+        "title": "Nuclear Power Engineer",
+        "mobile": "258 325 2379",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Roofing (Metal)"
+      }, 
+      {
+        "id": "4",
+        "name": "Ariana Cadlock",
+        "company": "Izio",
+        "title": "VP Product Management",
+        "mobile": "857 851 1141",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Fire Protection"
+      }, {
+        "id": "5",
+        "name": "Bernie Feeham",
+        "company": "Realmix",
+        "title": "Help Desk Operator",
+        "mobile": "854 454 4857",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Overhead Doors"
+      }, {
+        "id": "6",
+        "name": "Munroe Meron",
+        "company": "Kwimbee",
+        "title": "Sales Representative",
+        "mobile": "170 784 2681",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Rebar & Wire Mesh Install"
+      }, {
+        "id": "7",
+        "name": "Mellicent Cowmeadow",
+        "company": "Skippad",
+        "title": "Dental Hygienist",
+        "mobile": "779 765 7788",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Electrical"
+      }, {
+        "id": "8",
+        "name": "Trumaine Baelde",
+        "company": "Realbuzz",
+        "title": "Product Engineer",
+        "mobile": "262 756 5476",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Epoxy Flooring"
+      }, {
+        "id": "9",
+        "name": "Stevana Renvoise",
+        "company": "Youopia",
+        "title": "Research Associate",
+        "mobile": "548 631 3350",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Marlite Panels (FED)"
+      }, {
+        "id": "10",
+        "name": "Rees Meletti",
+        "company": "Yodo",
+        "title": "Research Associate",
+        "mobile": "893 399 8906",
+        "photo": "http://dummyimage.com/162x100.png/ff4444/ffffff",
+        "groupId": "Framing (Wood)"
+      }, {
+        "id": "11",
+        "name": "Thalia Lemmens",
+        "company": "Rhycero",
+        "title": "Administrative Assistant III",
+        "mobile": "449 973 4717",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Structural and Misc Steel (Fabrication)"
+      }, {
+        "id": "12",
+        "name": "Laurella Ridger",
+        "company": "Rhyzio",
+        "title": "Sales Associate",
+        "mobile": "457 359 1961",
+        "photo": "http://dummyimage.com/234x100.png/ff4444/ffffff",
+        "groupId": "EIFS"
+      }, {
+        "id": "13",
+        "name": "Domini Coyte",
+        "company": "Twitterbridge",
+        "title": "Information Systems Manager",
+        "mobile": "146 218 8057",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Soft Flooring and Base"
+      }, {
+        "id": "14",
+        "name": "Dimitri Panas",
+        "company": "Dynava",
+        "title": "Analyst Programmer",
+        "mobile": "532 952 2983",
+        "photo": "http://dummyimage.com/176x100.png/ff4444/ffffff",
+        "groupId": "Sitework & Site Utilities"
+      }, {
+        "id": "15",
+        "name": "Amos Heskey",
+        "company": "Brainsphere",
+        "title": "General Manager",
+        "mobile": "546 968 9242",
+        "photo": "http://dummyimage.com/101x100.png/ff4444/ffffff",
+        "groupId": "Doors, Frames & Hardware"
+      }, {
+        "id": "16",
+        "name": "Olga Casseldine",
+        "company": "Gabvine",
+        "title": "Programmer I",
+        "mobile": "339 596 1844",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Plumbing & Medical Gas"
+      }, {
+        "id": "17",
+        "name": "Kattie Truce",
+        "company": "Edgetag",
+        "title": "Office Assistant III",
+        "mobile": "111 564 3617",
+        "photo": "http://dummyimage.com/134x100.png/cc0000/ffffff",
+        "groupId": "Drilled Shafts"
+      }, {
+        "id": "18",
+        "name": "Jeffry O'Feeney",
+        "company": "Buzzbean",
+        "title": "Legal Assistant",
+        "mobile": "641 983 7432",
+        "photo": "http://dummyimage.com/107x100.png/ff4444/ffffff",
+        "groupId": "Electrical and Fire Alarm"
+      }, {
+        "id": "19",
+        "name": "Andriana Swann",
+        "company": "Skivee",
+        "title": "Paralegal",
+        "mobile": "840 485 4642",
+        "photo": "http://dummyimage.com/107x100.png/5fa2dd/ffffff",
+        "groupId": "Roofing (Asphalt)"
+      }, {
+        "id": "20",
+        "name": "Bradan Oriel",
+        "company": "Babbleblab",
+        "title": "Geologist IV",
+        "mobile": "287 394 0096",
+        "photo": "http://dummyimage.com/173x100.png/ff4444/ffffff",
+        "groupId": "Electrical"
+      },
+      {
+        "id": "21",
+        "name": "Brad Gibson",
+        "company": "YouTube",
+        "email": "brad@gmail.com",
+        "title": "Youtuber",
+        "mobile": "9876546787",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0g8R5VmgqDqpRCwQfw2Y9V-DM-iXS59R9hQ&usqp=CAU",
+        "groupId": "3"
+      },
+      {
+        "id": "22",
+        "name": "Glenda Kim",
+        "company": "Friend",
+        "email": "glenda@gmail.com",
+        "title": "freelancer",
+        "mobile": "8880009991",
+        "photo": "https://www.kindpng.com/picc/m/163-1636340_user-avatar-icon-avatar-transparent-user-icon-png.png",
+        "groupId": "2"
+      },
+      {
+        "id": "23",
+        "name": "Rajan",
+        "photo": "https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/User-icon.png",
+        "mobile": "9090909090",
+        "email": "rajan@gmail.com",
+        "company": "HCL Technologies",
+        "title": "Software Engineer",
+        "groupId": "1"
+      },
+      {
+        "id": "24",
+        "name": "Abel Baba",
+        "company": "Student",
+        "email": "ao@gmail.com",
+        "title": "Student",
+        "mobile": "6471234567",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0g8R5VmgqDqpRCwQfw2Y9V-DM-iXS59R9hQ&usqp=CAU",
+        "groupId": "3"
+      },
+      {
+        "id": "5",
+        "name": "Nath Baba",
+        "company": "Student",
+        "email": "Nath@gmail.com",
+        "title": "Student",
+        "mobile": "6474234567",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0g8R5VmgqDqpRCwQfw2Y9V-DM-iXS59R9hQ&usqp=CAU",
+        "groupId": "1"
+      },
+      {
+        "id": "26",
+        "name": "Vbaba Abelly",
+        "company": "OANWAVE",
+        "email": "vBaba@gmail.com",
+        "title": "DEV",
+        "mobile": "9876546787",
+        "photo": "https://png.pngtree.com/png-clipart/20190922/original/pngtree-business-male-user-avatar-vector-png-image_4774078.jpg",
+        "groupId": "3"
+      }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}

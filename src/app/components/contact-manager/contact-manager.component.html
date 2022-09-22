@@ -1,0 +1,79 @@
+
+<!-- Loading Spinner if loading -->
+<!-- <div *ngIf="loading">
+  <app-spinner></app-spinner>
+</div>
+Error Message  
+<div *ngIf="!loading && errorMessage">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="h4 text-danger fw-bold">{{errorMessage}}</p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!--  <div class="container">
+  <table class="table table-striped">
+    <thead >
+      <tr>
+        <th scope="col">Image</th>
+        <th scope="col">Name</th>
+        <th scope="col">Company</th>
+        <th scope="col">Email</th>
+        <th scope="col">Title</th>
+        <th scope="col">Mobile</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let x of contacts">
+        <td>{{x.name}}</td>
+        <td>{{x.email}}</td>
+        <td>@mdo</td>
+        <td>Mark</td>
+        <td><img [src]="x.photo" alt="..." style="width:50px;height:50px"></td> 
+        <pre>{{x.name}}</pre>
+      </tr>
+      
+    </tbody>
+  </table>
+</div> -->
+
+<!-- <pre>{{contacts | json}}</pre> -->
+<div class="container mt-4 pb-lg-5" *ngIf="!loading && contacts.length>0">
+  <div class="row">
+    <div class="col-md-6" *ngFor="let contact of contacts">
+      <div class="card list-group-item-primary shadow-lg my-2" style="min-width: 18rem;">
+        <div class="card-body m-md-3">
+          <div class="row d-flex align-items-center">
+            <div class="col-sm-4">
+              <img class="contact-img img-thumbnail" [src]="contact.photo" alt="" style="height: 150px; width: 150px; border-radius: 50%;" />
+            </div>
+            <div class="col-sm-7 align-items-center">
+              <!-- Some borders are removed  -->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Name: <b>{{contact.name}}</b></li>
+                <li class="list-group-item">Email: <b>{{contact.email}}</b></li>
+                <li class="list-group-item">Mobile: <b>{{contact.mobile}}</b></li>
+              </ul>
+            </div>
+            <!-- <div class="col-sm-1 d-flex flex-column justify-content-center align-items-center">
+              <a routerLink="/contacts/view/{{contact.id}}" class="btn btn-warning my-1">
+                <i class="fa fa-eye" aria-hidden="true"></i>
+              </a>
+              <a routerLink="/contacts/edit/{{contact.id}}" class="btn btn-primary my-1">
+                <i class="fa fa-pen" aria-hidden="true"></i>
+              </a>
+              <button type="button" name="" id="" (click)="deleteContact()" class="btn btn-danger my-1">
+                <i class="fa fa-trash"></i>
+              </button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+

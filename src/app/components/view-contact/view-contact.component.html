@@ -1,0 +1,58 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-primary fw-bold">View Contacts</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia
+        repellat quidem suscipit repellendus deserunt alias fugiat, veritatis
+        natus, quam fugit sequi earum eum, enim ex corrupti dolorem velit
+        aliquid.
+      </p>
+    </div>
+  </div>
+</div>
+<!-- Loading Spinner if loading
+<div *ngIf="loading">
+  <app-spinner></app-spinner>
+</div> -->
+<!-- Error Message  -->
+<!-- <div *ngIf="!loading && errorMessage">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="h4 text-danger fw-bold">{{errorMessage}}</p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="container mt-3">
+  <div class="row d-flex" >
+    <div class="col-md-4">
+      <pre>{{contact| json}}</pre>
+      <img
+                class="contact-img"
+                src="https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/User-icon.png"
+                alt=""
+                style="width: 250px; border-radius: 50%"
+              />
+    </div>
+    
+    <div class="col-md-6">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item list-group-item-primary">Name: <b>Abel</b></li>
+        <li class="list-group-item list-group-item-primary">Email: <b>{{contact.email}}</b></li>
+        <li class="list-group-item list-group-item-primary">Mobile: <b>{{contact.mobile}}</b></li>
+        <li class="list-group-item list-group-item-primary">Company: <b>{{contact.company}}</b></li>
+        <li class="list-group-item list-group-item-primary">Title: <b>{{contact.title}}</b></li>
+        <li class="list-group-item list-group-item-primary">Group Name: <b>{{contact.groupId}}</b></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <a class="btn btn-danger" routerLink="/"><i class="fa fa-arrow-alt-circle-left"></i> Back</a>
+    </div>
+  </div>
+</div>

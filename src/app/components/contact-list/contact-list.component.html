@@ -1,0 +1,114 @@
+
+<div class="container py-5 ">
+    <table class="table table-striped">
+      <thead >
+        <tr>
+          <th scope="col">Image</th>
+          <th scope="col">Name</th>
+          <th scope="col">Company</th>
+          <th scope="col">Email</th>
+          <th scope="col">Title</th>
+          <th scope="col">Mobile</th>
+          <th scope="col">Actions</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of contactData">
+        <td><img [src]="row.photo" alt="..." style="width:50px;height:50px"></td> 
+          <td>{{row.name}}</td>
+          <td>{{row.company}}</td>
+          <td>{{row.email}}</td>
+          <td>{{row.title}}</td>
+          <td>{{row.mobile}}</td>
+          <td class="">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Edit</button>
+            <button type="button" class="btn btn-danger mx-3" (click)="deleteContact(row)">Del</button>
+          </td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="col-md-6">
+          <form [formGroup]="contactForm"> 
+          
+            <div class="mb-3">
+             
+              <input type="text" class="form-control" formControlName="name" name="" id="" aria-describedby="helpId" placeholder="" />
+              <small id="helpId" class="form-text text-muted">Enter Name</small>
+            </div>
+            
+            <div class="mb-3">
+              
+              <input type="email" class="form-control" formControlName="email" name="" id="" aria-describedby="helpId" placeholder="" />
+              <small id="helpId" class="form-text text-muted">Enter Email</small>
+            </div>
+            <div class="mb-3">
+              
+              <input type="number" class="form-control" formControlName="mobile" name="" id="" aria-describedby="helpId" placeholder="" />
+              <small id="helpId" class="form-text text-muted">Enter Phone Number</small>
+            </div>
+            <div class="mb-3">
+              
+              <input type="text" formControlName="company" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
+              <small id="helpId" class="form-text text-muted">Enter Company Name</small>
+            </div>
+    
+            <div class="mb-3">
+              
+              <input type="text" class="form-control" formControlName="photo" name="" id="" aria-describedby="helpId" placeholder="" />
+              <small id="helpId" class="form-text text-muted">Enter Image Url</small>
+            </div>
+            <div class="mb-3">
+              
+              <input type="text" class="form-control" formControlName="title" name="" id="" aria-describedby="helpId" placeholder="" />
+              <small id="helpId" class="form-text text-muted">Enter Title</small>
+            </div>
+           
+            <div class="mb-3" >
+              <select formControlName="groupId" class="form-control">
+                 <option [value]="x" *ngFor="let x of groupOptions">{{x}}</option> -->
+              <!-- </select>
+              <small id="helpId" class="form-text text-muted">Select a Group</small>
+            </div>  -->
+    
+            <!-- <div class="mb-3">
+              <div class="mb-3">
+                <label for="" class="form-label">Select a Group</label>
+                <select class="form-control" name="" id="">
+                  <option>Family</option>
+                  <option>Work</option>
+                  <option>Friends</option>
+                </select>
+              </div>
+            </div> -->
+          <!--   <div class="mb-3">
+              <input type="submit" class="btn btn-primary" value="Create" />
+              <a routerLink="/contacts/admin" class="btn btn-dark ms-2">Close</a>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add Contact</button>
+      </div>
+    </div>
+  </div>
+</div> -->

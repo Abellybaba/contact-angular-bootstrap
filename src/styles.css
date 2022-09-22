@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    padding: 0;
+   width: 100%;
+  margin: auto;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  background-repeat: repeat-y;
+  background-size: cover;
+  overflow: scroll;
+ }
+
+ contact-img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card-innerr{
+    max-width: 1200px;
+    min-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+  }

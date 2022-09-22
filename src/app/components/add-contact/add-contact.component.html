@@ -1,0 +1,84 @@
+<!-- <div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-primary fw-bold">Add Contacts</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia
+        repellat quidem suscipit repellendus deserunt alias fugiat, veritatis
+        natus, quam fugit sequi earum eum, enim ex corrupti dolorem velit
+        aliquid.
+      </p>
+    </div>
+  </div>
+</div> -->
+
+<!-- Contact form -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6">
+      <form [formGroup]="contactForm">
+        <div class="mb-3">
+         
+          <input type="text" class="form-control" formControlName="name" name="" id="" aria-describedby="helpId" placeholder="" />
+          <small id="helpId" class="form-text text-muted">Enter Name</small>
+        </div>
+        
+        <div class="mb-3">
+          
+          <input type="email" class="form-control" formControlName="email" name="" id="" aria-describedby="helpId" placeholder="" />
+          <small id="helpId" class="form-text text-muted">Enter Email</small>
+        </div>
+        <div class="mb-3">
+          
+          <input type="number" class="form-control" formControlName="mobile" name="" id="" aria-describedby="helpId" placeholder="" />
+          <small id="helpId" class="form-text text-muted">Enter Phone Number</small>
+        </div>
+        <div class="mb-3">
+          
+          <input type="text" formControlName="company" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
+          <small id="helpId" class="form-text text-muted">Enter Company Name</small>
+        </div>
+
+        <div class="mb-3">
+          
+          <input type="text" class="form-control" formControlName="photo" name="" id="" aria-describedby="helpId" placeholder="" />
+          <small id="helpId" class="form-text text-muted">Enter Image Url</small>
+        </div>
+        <div class="mb-3">
+          
+          <input type="text" class="form-control" formControlName="title" name="" id="" aria-describedby="helpId" placeholder="" />
+          <small id="helpId" class="form-text text-muted">Enter Title</small>
+        </div>
+       
+        <div class="mb-3" >
+          <select formControlName="groupId" class="form-control">
+            <option [value]="x" *ngFor="let x of groupOptions">{{x}}</option>
+          </select>
+          <small id="helpId" class="form-text text-muted">Select a Group</small>
+        </div>
+
+        <!-- <div class="mb-3">
+          <div class="mb-3">
+            <label for="" class="form-label">Select a Group</label>
+            <select class="form-control" name="" id="">
+              <option>Family</option>
+              <option>Work</option>
+              <option>Friends</option>
+            </select>
+          </div>
+        </div> -->
+        <div class="mb-3">
+          <input type="submit" class="btn btn-primary" value="Create" (click)="addContact()" />
+          <a routerLink="/contacts/admin" class="btn btn-dark ms-2">Close</a>
+        </div>
+        
+      </form>
+    </div>
+
+    <!-- New column for image -->
+    <div class="col-sm-4">
+      <img src="https://www.kindpng.com/picc/m/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png"
+        class="contact-img" alt="" style="width: 150px; border-radius: 50%" />
+    </div>
+  </div>
+</div>
